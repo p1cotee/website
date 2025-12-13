@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -39,4 +39,120 @@
 
 .read-the-docs {
   color: #888;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  color: #F8FAFC;
+  background-image: url('./images/mc\ bg.jpg');
+  background-size: cover;
+}
+
+.bg-rect {
+  position: absolute;
+  top: 5%;
+  left: 2.8125%;
+  width: 94.375%;
+  height: auto;
+  content: url('./images/bg-rect.png');
+}
+
+.nav-bar-about-me { 
+  position: absolute;
+  top: 11.2963%;
+  left: 13.542%;
+  width: 8.854167%; 
+  height: 15.7407407407%; 
+  content: url('./images/button\ bg.png'); 
+  z-index: 10;
+}
+
+.nav-bar-projects { 
+  position: absolute;
+  top: 11.2963%;
+  left: 35.052%;
+  width: 8.854167%; 
+  height: 15.7407407407%; 
+  content: url('./images/button\ bg.png'); 
+  z-index: 10;
+}
+
+.nav-bar-work { 
+  position: absolute;
+  top: 11.2963%;
+  left: 56.61%;
+  width: 8.854167%; 
+  height: 15.7407407407%; 
+  content: url('./images/button\ bg.png'); 
+  z-index: 10;
+}
+
+.nav-bar-links { 
+  position: absolute;
+  top: 11.2963%;
+  left: 78.177%;
+  width: 8.854167%; 
+  height: 15.7407407407%; 
+  content: url('./images/button\ bg.png'); 
+  z-index: 10;
+}
+
+.about-me-icon {
+  position: absolute;
+  width: 5.46875%;
+  height: 9.7222%;
+  top: 14.259%;
+  left: 15.15625%;
+  content: url('./images/about\ me\ icon.png');
+  transition: transform 0.3s ease;
+  z-index: 20;
+}
+
+.about-me-icon:hover {
+  transform: scale(1.2);
+}
+
+.projects-icon {
+  position: absolute;
+  width: 5.46875%;
+  height: 9.7222%;
+  top: 14.259%;
+  left: 36.71875%;
+  content: url('./images/projects\ icon.png');
+  transition: transform 0.3s ease;
+  z-index: 20;
+}
+
+.projects-icon:hover {
+  transform: scale(1.2);
+}
+
+.work-icon {
+  position: absolute;
+  width: 5.46875%;
+  height: 9.7222%;
+  top: 14.259%;
+  left: 58.28125%;
+  content: url('./images/work\ icon.png');
+  transition: transform 0.3s ease;
+  z-index: 20;
+}
+
+.work-icon:hover {
+  transform: scale(1.2);
+}
+
+.links-icon {
+  position: absolute;
+  width: 5.46875%;
+  height: 9.7222%;
+  top: 14.259%;
+  left: 79.84375%;
+  content: url('./images/links\ icon.png');
+  transition: transform 0.3s ease;
+  z-index: 20;
+}
+
+.links-icon:hover {
+  transform: scale(1.2);
 }
