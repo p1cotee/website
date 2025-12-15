@@ -133,7 +133,7 @@ p {
   left: 2.8125%;
   width: 94.375%;
   height: auto;
-  content: url('./images/bg-rect.png');
+  content: url('/images/bg-rect.png');
 }
 
 .text-bg {
@@ -142,7 +142,7 @@ p {
   left: 4.84375%;
   width: 89.79167%;
   height: auto;
-  content: url('./images/text-bg.png');
+  content: url('/images/text-bg.png');
   z-index: 20;
 }
 
@@ -153,7 +153,7 @@ p {
   left: 23.333%;
   width: 8.854167%; 
   height: 15.7407407407%; 
-  content: url('./images/button\ bg.png'); 
+  content: url('/images/button\ bg.png'); 
   z-index: 10;
 }
 
@@ -163,7 +163,7 @@ p {
   left: 48.333%;
   width: 8.854167%; 
   height: 15.7407407407%; 
-  content: url('./images/button\ bg.png'); 
+  content: url('/images/button\ bg.png'); 
   z-index: 10;
 }
 
@@ -173,7 +173,7 @@ p {
   left: 73.333%;
   width: 8.854167%; 
   height: 15.7407407407%; 
-  content: url('./images/button\ bg.png'); 
+  content: url('/images/button\ bg.png'); 
   z-index: 10;
 }
 
@@ -183,7 +183,7 @@ p {
   height: 9.7222%;
   top: 14.259%;
   left: 25%;
-  content: url('./images/about\ me\ icon.png');
+  content: url('/images/about\ me\ icon.png');
   transition: transform 0.3s ease;
   z-index: 20;
 }
@@ -198,7 +198,7 @@ p {
   height: 9.7222%;
   top: 14.259%;
   left: 50%;
-  content: url('./images/projects\ icon.png');
+  content: url('/images/projects\ icon.png');
   transition: transform 0.3s ease;
   z-index: 20;
 }
@@ -213,7 +213,7 @@ p {
   height: 9.7222%;
   top: 14.259%;
   left: 75%;
-  content: url('./images/work\ icon.png');
+  content: url('/images/work\ icon.png');
   transition: transform 0.3s ease;
   z-index: 20;
 }
@@ -234,7 +234,7 @@ p {
   height: 46.1111%;
   top: 40.185%;
   left: 25.52%;
-  content: url('./images/mc-sitting.png');
+  content: url('/images/mc-sitting.png');
   z-index: 20;
 }
 
@@ -244,7 +244,7 @@ p {
   height: 30.185%;
   top: 57.87%;
   left: 48.67%;
-  content: url('./images/mc-pointing.png');
+  content: url('/images/mc-pointing.png');
   z-index: 30;
   -webkit-transform: scaleX(-1);
 }
@@ -255,7 +255,7 @@ p {
   height: auto;
   top: 54.352%;
   left: 78.854%;
-  content: url('./images/projects-page/mc-sitting-pointing.png');
+  content: url('/images/projects-page/mc-sitting-pointing.png');
   z-index: 30;
 }
 
@@ -265,7 +265,7 @@ p {
   height: auto;
   top: 59.167%;
   left: 81.8229%;
-  content: url('/public/images/mc\ wallpaper.jpg');
+  content: url('/images/mc\ wallpaper.jpg');
   z-index: 30;
   -webkit-transform: scaleX(-1);
 }
@@ -279,7 +279,7 @@ p {
   height: auto;
   top: 43.704%;
   left: 50%;
-  content: url('./images/nihao.png');
+  content: url('/images/nihao.png');
   z-index: 30;
 }
 
@@ -289,7 +289,7 @@ p {
   height: auto;
   top: 39.074%;
   left: 73.698%;
-  content: url('./images/about-me-page/profile-pic.png');
+  content: url('/images/about-me-page/profile-pic.png');
   z-index: 30;
 }
 
@@ -299,7 +299,7 @@ p {
   height: auto;
   top: 65.926%;
   left: 62.96875%;
-  content: url('./images/projects-page/mc-paper.jpg');
+  content: url('/images/projects-page/mc-paper.jpg');
   z-index: 30;
 }
 
@@ -309,7 +309,7 @@ p {
   height: auto;
   top: 46.1111%;
   left: 41.614583%;
-  content: url('./images/projects-page/resume-text.PNG');
+  content: url('/images/projects-page/resume-text.PNG');
   z-index: 30;
 }
 
@@ -319,7 +319,7 @@ p {
   height: auto;
   top: 66.759%;
   left: 67.135%;
-  content: url('./images/work-page/robotics-circle-1.png');
+  content: url('/images/work-page/robotics-circle-1.png');
   z-index: 30;
 }
 
@@ -329,7 +329,7 @@ p {
   height: auto;
   top: 66.759%;
   left: 52.76%;
-  content: url('./images/work-page/robotics-circle-2.png');
+  content: url('/images/work-page/robotics-circle-2.png');
   z-index: 30;
 }
 
@@ -339,7 +339,7 @@ p {
   height: auto;
   top: 33.889%;
   left: 91.302%;
-  content: url('./images/links/github-logo.png');
+  content: url('/images/links/github-logo.png');
   z-index: 30;
 }
 
@@ -349,7 +349,7 @@ p {
   height: 3.704%;
   top: 33.889%;
   left: 88.698%;
-  content: url('./images/links/linkedin-logo.png');
+  content: url('/images/links/linkedin-logo.png');
   z-index: 30;
 }
 
@@ -359,6 +359,6 @@ p {
   height: 3.704%;
   top: 33.889%;
   left: 85.5167%;
-  content: url('./images/links/gmail-logo.png');
+  content: url('/images/links/gmail-logo.png');
   z-index: 30;
 }
