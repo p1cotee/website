@@ -7,21 +7,16 @@ function Navigation(){
             <div className='nav-bar-about-me'></div>
             <div className='nav-bar-projects'></div>
             <div className='nav-bar-work'></div>
-            <div className='nav-bar-links'></div>
 
-            <p className='nav-bar-text' style={{top: '27%', left: '12.5%'}}>
+            <p className='nav-bar-text' style={{top: '27%', left: '22%'}}>
                 about me
             </p>
-            <p className='nav-bar-text' style={{top: '27%', left: '34%'}}>
+            <p className='nav-bar-text' style={{top: '27%', left: '47%'}}>
                 projects
             </p>
 
-            <p className='nav-bar-text' style={{top: '27%', left: '58.3%'}}>
+            <p className='nav-bar-text' style={{top: '27%', left: '75%'}}>
                 work
-            </p>
-
-            <p className='nav-bar-text' style={{top: '27%', left: '79%'}}>
-                links
             </p>
             
             <Link to='/about-me'>
@@ -33,9 +28,9 @@ function Navigation(){
             <Link to='/work'>
                 <div className='work-icon'></div>
             </Link>
-            <Link to='links'>
-                <div className='links-icon'></div>
-            </Link>
+
+
+            
         </div>
     );
 }

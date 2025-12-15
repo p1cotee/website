@@ -57,7 +57,7 @@ p {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
   font-size: 35px;
-  color: #F8FAFC;
+  color: #9AA6B2;
   text-align: left;
   z-index: 20;
 }
@@ -113,15 +113,6 @@ p {
   z-index: 30;
 }
 
-.about-me-chinese-text {
-    position: absolute;
-  font-family: 'Courier New', Courier, monospace;
-  text-align: center;
-  font-size: 30px;
-  color: #9AA6B2;
-  text-align: left;
-  z-index: 30;
-}
 
 .about-me-info-text {
   position: absolute;
@@ -159,7 +150,7 @@ p {
 .nav-bar-about-me { 
   position: absolute;
   top: 11.2963%;
-  left: 13.542%;
+  left: 23.333%;
   width: 8.854167%; 
   height: 15.7407407407%; 
   content: url('./images/button\ bg.png'); 
@@ -169,7 +160,7 @@ p {
 .nav-bar-projects { 
   position: absolute;
   top: 11.2963%;
-  left: 35.052%;
+  left: 48.333%;
   width: 8.854167%; 
   height: 15.7407407407%; 
   content: url('./images/button\ bg.png'); 
@@ -179,17 +170,7 @@ p {
 .nav-bar-work { 
   position: absolute;
   top: 11.2963%;
-  left: 56.61%;
-  width: 8.854167%; 
-  height: 15.7407407407%; 
-  content: url('./images/button\ bg.png'); 
-  z-index: 10;
-}
-
-.nav-bar-links { 
-  position: absolute;
-  top: 11.2963%;
-  left: 78.177%;
+  left: 73.333%;
   width: 8.854167%; 
   height: 15.7407407407%; 
   content: url('./images/button\ bg.png'); 
@@ -201,7 +182,7 @@ p {
   width: 5.46875%;
   height: 9.7222%;
   top: 14.259%;
-  left: 15.15625%;
+  left: 25%;
   content: url('./images/about\ me\ icon.png');
   transition: transform 0.3s ease;
   z-index: 20;
@@ -216,7 +197,7 @@ p {
   width: 5.46875%;
   height: 9.7222%;
   top: 14.259%;
-  left: 36.71875%;
+  left: 50%;
   content: url('./images/projects\ icon.png');
   transition: transform 0.3s ease;
   z-index: 20;
@@ -231,7 +212,7 @@ p {
   width: 5.46875%;
   height: 9.7222%;
   top: 14.259%;
-  left: 58.28125%;
+  left: 75%;
   content: url('./images/work\ icon.png');
   transition: transform 0.3s ease;
   z-index: 20;
@@ -239,17 +220,6 @@ p {
 
 .work-icon:hover {
   transform: scale(1.1);
-}
-
-.links-icon {
-  position: absolute;
-  width: 5.46875%;
-  height: 9.7222%;
-  top: 14.259%;
-  left: 79.84375%;
-  content: url('./images/links\ icon.png');
-  transition: transform 0.3s ease;
-  z-index: 20;
 }
 
 .links-icon:hover {
@@ -273,7 +243,7 @@ p {
   width: 10.104167%;
   height: 30.185%;
   top: 57.87%;
-  left: 46.67%;
+  left: 48.67%;
   content: url('./images/mc-pointing.png');
   z-index: 30;
   -webkit-transform: scaleX(-1);
@@ -287,6 +257,17 @@ p {
   left: 78.854%;
   content: url('./images/projects-page/mc-sitting-pointing.png');
   z-index: 30;
+}
+
+.mc-walking { /* work page */
+  position: absolute;
+  width: 9.0625%;
+  height: auto;
+  top: 59.167%;
+  left: 81.8229%;
+  content: url('./images/work-page/mc-walking.png');
+  z-index: 30;
+  -webkit-transform: scaleX(-1);
 }
 
 /* misc */
@@ -328,5 +309,55 @@ p {
   top: 46.1111%;
   left: 41.614583%;
   content: url('./images/projects-page/resume-text.PNG');
+  z-index: 30;
+}
+
+.robotics-circle-1 { /* work */
+  position: absolute;
+  width: 11.04167%;
+  height: auto;
+  top: 66.759%;
+  left: 67.135%;
+  content: url('./images/work-page/robotics-circle-1.png');
+  z-index: 30;
+}
+
+.robotics-circle-2 { /* work */
+  position: absolute;
+  width: 11.04167%;
+  height: auto;
+  top: 66.759%;
+  left: 52.76%;
+  content: url('./images/work-page/robotics-circle-2.png');
+  z-index: 30;
+}
+
+.github-logo {
+  position: absolute;
+  width: 2.0833%;
+  height: auto;
+  top: 33.889%;
+  left: 91.302%;
+  content: url('./images/links/github-logo.png');
+  z-index: 30;
+}
+
+.linkedin-logo {
+  position: absolute;
+  width: auto;
+  height: 3.704%;
+  top: 33.889%;
+  left: 88.698%;
+  content: url('./images/links/linkedin-logo.png');
+  z-index: 30;
+}
+
+.gmail-logo {
+  position: absolute;
+  width: auto;
+  height: 3.704%;
+  top: 33.889%;
+  left: 85.5167%;
+  content: url('./images/links/gmail-logo.png');
   z-index: 30;
 }

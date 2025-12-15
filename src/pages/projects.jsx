@@ -18,9 +18,27 @@ function Projects() {
                 (22-24):
             </p>
             <ul className='text' style={{top: '37.685%', left: '8.229%'}}>
-                <li>1st @ game gala (23)</li>
-                <li>judge's favorite @ <br /> coolest projects (24)</li>
-                <li>2nd @ ignitecs expo (24)</li>
+                <li>
+                    2nd @ 
+                    <a href="https://ignitecsexpo.org/" target="_blank" rel="noopener noreferrer">
+                    ignitecs expo
+                    </a>
+                     (24)
+                </li>
+                <li>
+                    1st @ 
+                    <a href="https://gamegala.org/" target="_blank" rel="noopener noreferrer">
+                    game gala
+                    </a>
+                     (23)
+                </li>
+                <li>judge's favorite @ <br /> 
+                    <a href="https://online.coolestprojects.org/" target="_blank" rel="noopener noreferrer">
+                        coolest projects
+                        </a>
+                     (24)
+                </li>
+                
             </ul>
 
             <p className='text' style={{top: '65%', left: '8.229%'}}>

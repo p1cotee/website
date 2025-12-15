@@ -43,13 +43,13 @@ function AboutMe() {
                 Isabel Wang
             </p>
 
-            <p className='about-me-chinese-text' style={{top: '74.9074%', left: '78.9583%'}}>
-                王楚楚
+            <p className='about-me-info-text' style={{top: '74.9074%', left: '77.1583%'}}>
+                us citizen
             </p>
-            <p className='about-me-info-text' style={{top: '79.989%', left: '71.570%'}}>
+            <p className='about-me-info-text' style={{top: '78.1184%', left: '71.570%'}}>
                 cse major @ uc irvine
             </p>
-            <p className='about-me-info-text' style={{top: '83.2%', left: '71.570%'}}>
+            <p className='about-me-info-text' style={{top: '81.3%', left: '71.570%'}}>
                 based in bellevue, wa
             </p>
         
