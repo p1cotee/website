@@ -16,19 +16,20 @@ function AboutMe() {
                 main interests:
             </p>
             <ul className='text' style={{top: '37.685%', left: '8.229%'}}>
-                <li>game development</li>
                 <li>software engineering</li>
-                <li>ai</li>
                 <li>computer modeling</li>
+                <li>ai</li>
+                <li>game development</li>
             </ul>
 
             <p className='text' style={{top: '65%', left: '8.229%'}}>
-                hobbies:
+                hobbies + other interests:
             </p>
             <ul className='text' style={{top: '65%', left: '8.229%'}}>
                 <li>video games</li>
+                <li>environmental science</li>
+                <li>aerospace</li>
                 <li>tennis + biking</li>
-                <li>flute</li>
             </ul>
 
             <p className='text' style={{top: '37.685%', left: '44.11%'}}>
