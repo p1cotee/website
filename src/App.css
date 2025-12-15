@@ -265,10 +265,11 @@ p {
   height: auto;
   top: 59.167%;
   left: 81.8229%;
-  content: url('./images/work-page/mc-walking.png');
+  content: url('/public/images/mc\ wallpaper.jpg');
   z-index: 30;
   -webkit-transform: scaleX(-1);
 }
+
 
 /* misc */
 
