@@ -43,7 +43,7 @@
 
 /* text */
 body {
-  background-image: url('./images/mc\ wallpaper.jpg');
+  background-image: url('/images/mc\ wallpaper.jpg');
   background-size: cover;
   z-index: 100;
 }
@@ -99,7 +99,7 @@ p {
   left: 49.323%;
   width: 27.5%;
   height: 8.333%;
-  content: url('./images/text/main-text.png');
+  content: url('/images/text/main-text.png');
   z-index: 20;
 }
 

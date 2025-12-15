@@ -1,4 +1,4 @@
-import resumePdf from '../images/projects-page/Resume.pdf';
+import resumePdf from '/images/projects-page/Resume.pdf';
 
 function Projects() {
     return (
