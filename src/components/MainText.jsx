@@ -1,7 +1,9 @@
-import mainText from "../images/text/main-text.png";
-
 function MainText() {
-  return <img className='main-text' src={mainText} alt="main screen text" />;
+  return (
+    <p className='nav-bar-text' style={{top: '56.204%', left: '49.323%'}}>
+      click on an icon above <br /> to get started!
+    </p>
+  )
 }
 
 export default MainText;

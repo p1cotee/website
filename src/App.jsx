@@ -1,11 +1,12 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import "./App.css";
-import Navigation from "./Navigation";
+import Navigation from "./navigation";
 import McSitting from "./components/McSitting";
 import MainText from './components/MainText';
 
 /* pages */
 import AboutMe from './pages/about-me'
+import Projects from './pages/projects'
 
 function App() {
   const location = useLocation();
@@ -21,7 +22,7 @@ function App() {
 
       <Routes>
         <Route path="/about-me" element={<AboutMe />} />
-        <Route path="/projects" element={<div>Projects Page</div>} />
+        <Route path="/projects" element={<div><Projects /></div>} />
         <Route path="/work" element={<div>Work Page</div>} />
         <Route path="/links" element={<div>Links Page</div>} />
       </Routes>

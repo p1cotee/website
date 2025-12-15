@@ -8,6 +8,21 @@ function Navigation(){
             <div className='nav-bar-projects'></div>
             <div className='nav-bar-work'></div>
             <div className='nav-bar-links'></div>
+
+            <p className='nav-bar-text' style={{top: '27%', left: '12.5%'}}>
+                about me
+            </p>
+            <p className='nav-bar-text' style={{top: '27%', left: '34%'}}>
+                projects
+            </p>
+
+            <p className='nav-bar-text' style={{top: '27%', left: '58.3%'}}>
+                work
+            </p>
+
+            <p className='nav-bar-text' style={{top: '27%', left: '79%'}}>
+                links
+            </p>
             
             <Link to='/about-me'>
                 <div className='about-me-icon'></div>

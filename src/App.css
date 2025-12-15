@@ -45,6 +45,52 @@
 body {
   background-image: url('./images/mc\ wallpaper.jpg');
   background-size: cover;
+  z-index: 100;
+}
+
+p {
+  margin: 0;
+}
+
+.nav-bar-text {
+  position: absolute;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 35px;
+  color: #F8FAFC;
+  text-align: left;
+  z-index: 20;
+}
+
+.text {
+  position: absolute;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 35px;
+  color: #9AA6B2;
+  text-align: left;
+  z-index: 30;
+}
+
+.text ul {
+  padding-left: 14px;
+  margin: 0;
+  z-index: 30;
+}
+
+.text li {
+  margin-bottom: 4px;
+  margin: 0;
+  z-index: 30;
+}
+
+.text a {
+  color: #9AA6B2;
+  text-decoration: underline;
+}
+
+.text a:hover {
+  color: #c5d0dc;
 }
 
 .main-text {
@@ -54,9 +100,41 @@ body {
   width: 27.5%;
   height: 8.333%;
   content: url('./images/text/main-text.png');
-  z-index: 20
+  z-index: 20;
 }
 
+.about-me-name-text {
+  position: absolute;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 48px;
+  color: #9AA6B2;
+  text-align: left;
+  z-index: 30;
+}
+
+.about-me-chinese-text {
+    position: absolute;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 30px;
+  color: #9AA6B2;
+  text-align: left;
+  z-index: 30;
+}
+
+.about-me-info-text {
+  position: absolute;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 25px;
+  color: #9AA6B2;
+  text-align: left;
+  z-index: 30;
+}
+
+
+/* bgs */
 
 .bg-rect {
   position: absolute;
@@ -65,6 +143,16 @@ body {
   width: 94.375%;
   height: auto;
   content: url('./images/bg-rect.png');
+}
+
+.text-bg {
+  position: absolute;
+  top: 32.778%;
+  left: 4.84375%;
+  width: 89.79167%;
+  height: auto;
+  content: url('./images/text-bg.png');
+  z-index: 20;
 }
 
 /* nav bar */
@@ -170,7 +258,7 @@ body {
 
 
 /* mc character */
-.mc-sitting {
+.mc-sitting { /* app.css */
   position: absolute;
   width: 17.8125%;
   height: 46.1111%;
@@ -180,15 +268,65 @@ body {
   z-index: 20;
 }
 
+.mc-pointing { /* about me */
+  position: absolute;
+  width: 10.104167%;
+  height: 30.185%;
+  top: 57.87%;
+  left: 46.67%;
+  content: url('./images/mc-pointing.png');
+  z-index: 30;
+  -webkit-transform: scaleX(-1);
+}
+
+.mc-siting-pointing { /*projects page*/
+  position: absolute;
+  width: 13.021%;
+  height: auto;
+  top: 54.352%;
+  left: 78.854%;
+  content: url('./images/projects-page/mc-sitting-pointing.png');
+  z-index: 30;
+}
 
 /* misc */
 
-.ni-hao {
+.ni-hao { /* about me */
   position: absolute;
   width: 15.4167%;
-  height: 27.407%;
+  height: auto;
   top: 43.704%;
   left: 50%;
   content: url('./images/nihao.png');
-  z-index: 20;
+  z-index: 30;
+}
+
+.profile-pic { /* about me */
+  position: absolute;
+  width: 15.625%;
+  height: auto;
+  top: 39.074%;
+  left: 73.698%;
+  content: url('./images/about-me-page/profile-pic.png');
+  z-index: 30;
+}
+
+.mc-paper { /* about me */
+  position: absolute;
+  width: 9.895833%;
+  height: auto;
+  top: 65.926%;
+  left: 62.96875%;
+  content: url('./images/projects-page/mc-paper.jpg');
+  z-index: 30;
+}
+
+.resume-text { /* about me */
+  position: absolute;
+  width: 24.79%;
+  height: auto;
+  top: 46.1111%;
+  left: 41.614583%;
+  content: url('./images/projects-page/resume-text.PNG');
+  z-index: 30;
 }
