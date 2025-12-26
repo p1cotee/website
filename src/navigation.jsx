@@ -1,38 +1,33 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
+import useSound from 'use-sound';
+import clickMp3 from '/sounds/minecraft_click.mp3'; // adjust path
 
-function Navigation(){
-    return(
-        <div>
-            <div className='bg-rect'></div>
-            <div className='nav-bar-about-me'></div>
-            <div className='nav-bar-projects'></div>
-            <div className='nav-bar-work'></div>
+function Navigation() {
+  const navigate = useNavigate();
+  const [play] = useSound(clickMp3, { volume: 0.5 });
 
-            <p className='nav-bar-text' style={{top: '27%', left: '22%'}}>
-                about me
-            </p>
-            <p className='nav-bar-text' style={{top: '27%', left: '47%'}}>
-                projects
-            </p>
+  const handleClick = (path) => {
+    play(); // play sound immediately
+    setTimeout(() => navigate(path), 100); // small delay to let sound start
+  };
 
-            <p className='nav-bar-text' style={{top: '27%', left: '75%'}}>
-                work
-            </p>
-            
-            <Link to='/about-me'>
-                <div className='about-me-icon'></div>
-            </Link>
-            <Link to='/projects'>
-                <div className='projects-icon'></div>
-            </Link>
-            <Link to='/work'>
-                <div className='work-icon'></div>
-            </Link>
+  return (
+    <div>
+      <div className='bg-rect'></div>
 
+      <div className="nav-bar-bg" style={{ top: '11.2963%', left: '23.333%' }} />
+      <div className="nav-bar-bg" style={{ top: '11.2963%', left: '48.333%' }} />
+      <div className="nav-bar-bg" style={{ top: '11.2963%', left: '73.333%' }} />
 
-            
-        </div>
-    );
+      <p className='nav-bar-text' style={{ top: '27%', left: '22%' }}>about me</p>
+      <p className='nav-bar-text' style={{ top: '27%', left: '47%' }}>projects</p>
+      <p className='nav-bar-text' style={{ top: '27%', left: '75%' }}>work</p>
+
+      <div className='about-me-icon' onClick={() => handleClick('/about-me')} />
+      <div className='projects-icon' onClick={() => handleClick('/projects')} />
+      <div className='work-icon' onClick={() => handleClick('/work')} />
+    </div>
+  );
 }
 
 export default Navigation;

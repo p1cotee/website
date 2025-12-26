@@ -54,7 +54,7 @@ p {
 
 .nav-bar-text {
   position: absolute;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: monospace;
   text-align: center;
   font-size: 35px;
   color: #9AA6B2;
@@ -64,7 +64,7 @@ p {
 
 .text {
   position: absolute;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: monospace;
   text-align: center;
   font-size: 35px;
   color: #9AA6B2;
@@ -105,7 +105,7 @@ p {
 
 .about-me-name-text {
   position: absolute;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: monospace;
   text-align: center;
   font-size: 48px;
   color: #9AA6B2;
@@ -116,7 +116,7 @@ p {
 
 .about-me-info-text {
   position: absolute;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: monospace;
   text-align: center;
   font-size: 25px;
   color: #9AA6B2;
@@ -147,34 +147,13 @@ p {
 }
 
 /* nav bar */
-.nav-bar-about-me { 
-  position: absolute;
-  top: 11.2963%;
-  left: 23.333%;
-  width: 8.854167%; 
-  height: 15.7407407407%; 
-  content: url('/images/button\ bg.png'); 
-  z-index: 10;
-}
 
-.nav-bar-projects { 
+.nav-bar-bg {
   position: absolute;
-  top: 11.2963%;
-  left: 48.333%;
-  width: 8.854167%; 
+  border-radius: 15px;
+  background-color: #BCCCDC;
+  width: 8.854167%;
   height: 15.7407407407%; 
-  content: url('/images/button\ bg.png'); 
-  z-index: 10;
-}
-
-.nav-bar-work { 
-  position: absolute;
-  top: 11.2963%;
-  left: 73.333%;
-  width: 8.854167%; 
-  height: 15.7407407407%; 
-  content: url('/images/button\ bg.png'); 
-  z-index: 10;
 }
 
 .about-me-icon {
@@ -265,7 +244,7 @@ p {
   height: auto;
   top: 59.167%;
   left: 81.8229%;
-  content: url('/images/mc\ wallpaper.jpg');
+  content: url('/images/work-page/mc-walking.png');
   z-index: 30;
   -webkit-transform: scaleX(-1);
 }
@@ -361,4 +340,18 @@ p {
   left: 85.5167%;
   content: url('/images/links/gmail-logo.png');
   z-index: 30;
+}
+
+/* effects */
+
+@keyframes wiggle {
+  0%   { transform: scale(1.12) rotate(0deg); }
+  25%  { transform: scale(1.12) rotate(3deg); }
+  50%  { transform: scale(1.12) rotate(-3deg); }
+  75%  { transform: scale(1.12) rotate(2deg); }
+  100% { transform: scale(1.12) rotate(0deg); }
+}
+
+.mc-paper:hover {
+  animation: wiggle 0.45s ease-in-out infinite;
 }

@@ -1,13 +1,17 @@
 import resumePdf from '/images/projects-page/Resume.pdf';
+import useSound from 'use-sound';
+import hoverSound from '/sounds/paper-sound.mp3';
 
 function Projects() {
+    const [play] = useSound(hoverSound, { volume: 0.5 });
+
     return (
         <div>
             <div className='text-bg' />
 
             <div className='mc-siting-pointing' />
             <div className='resume-text' />
-            <a href={resumePdf} download>
+            <a href={resumePdf} download onMouseEnter={() => play()}>
                 <div className='mc-paper' />
             </a>
 
